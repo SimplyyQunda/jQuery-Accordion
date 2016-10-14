@@ -1,4 +1,21 @@
 .jquery-box {
   border: 2px solid lightblue;
   width: 496px;
-  height: 265px; }
+  text-align: center; }
+  .jquery-box #heading1 {
+    border: 2px solid lightblue;
+    background-color: lightblue; }
+  .jquery-box #heading2 {
+    border: 2px solid lightblue;
+    background-color: lightblue; }
+  .jquery-box #heading3 {
+    border: 2px solid lightblue;
+    background-color: lightblue; }
+
+.info {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s ease; }
+
+.open {
+  max-height: 200px; }
