@@ -1,7 +1,7 @@
 //Class name for the entire container (div)
 
 .jquery-box {
-	border: 2px solid lightblue;
+	border: 2px solid blue;
 	width: 496px;
 	// height: 580px;
 	text-align: center;
@@ -9,17 +9,27 @@
 	#heading1{
 		border: 2px solid lightblue;
 		background-color: lightblue;
+		margin: 0px;
 		
 	}
-
+	.section{
+		border: 2px solid lightblue;
+		background-color: lightblue;
+		margin: 0px;
+	}
 }
 
 .info{
 	max-height: 0px;
 	overflow: hidden;
 	transition: max-height 1s ease;
+	margin: 0px;
 }
 
 .open{
 	max-height:200px;
+}
+
+.close{
+	max-height:0px;
 }

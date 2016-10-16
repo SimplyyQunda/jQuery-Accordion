@@ -3,27 +3,64 @@
 // }
 console.log('loaded');
 
-function jaccordian() {
+var panels = $(".section");
+panels.click(jaccordian);
 
-	$("#panel1").toggleClass("open");
-	$("#panel2").toggleClass("open");
-	$("#panel3").toggleClass("open");
+function jaccordian (event) {
 
-	console.log("click");
-	console.log($("#panel1"));
+	var target = event.target;
+
+
+	if (target.id === "heading1") {
+		console.log("You clicked heading 1");
+		$("#panel1").toggleClass("open");
+
+		
+	} 
+
+	if($(target.id)===(".open")) {
+            close_panels(".close");
+
+	}
+
+
+
+	if (target.id === "heading2") {
+		console.log("You clicked heading 2");
+		$("#panel2").toggleClass("open")
+
+	} 
+
+	if (target.id === "heading3") {
+		console.log("You clicked heading 3");
+		$("#panel3").toggleClass("open");
+	} 
 
 }
+	
+	// $("#panel2").toggleClass("open");
+	// $("#panel3").toggleClass("open");
 
-var jqueryPanel1 = $("#heading1");
-jqueryPanel1.click(jaccordian);
-
-var jqueryPanel2 = $("#heading1");
-jqueryPanel2.click(jaccordian);
-
-var jqueryPanel3 = $("#heading1");
-jqueryPanel3.click(jaccordian);
+	// console.log("click");
+	// console.log($("#panel1"));
 
 
+// }
+
+
+
+// // var jqueryPanel1 = $("#heading1");
+// jqueryPanel1.click(jaccordian);
+//  if ($("#heading1")===(".active")) {
+//  	close_jqueryPanel2();
+//  }
+
+
+// var jqueryPanel2 = $(".section2");
+// jqueryPanel2.click(jaccordian);
+
+// var jqueryPanel3 = $(".section3");
+// jqueryPanel3.click(jaccordian);
 
 
 
