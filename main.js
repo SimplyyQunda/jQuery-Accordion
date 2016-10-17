@@ -14,27 +14,41 @@ function jaccordian (event) {
 	if (target.id === "heading1") {
 		console.log("You clicked heading 1");
 		$("#panel1").toggleClass("open");
-
-		
-	} 
-
-	if($(target.id)===(".open")) {
-            close_panels(".close");
-
-	}
-
-
+		$("#panel2").toggleClass("close");
+		$("#panel3").toggleClass("close");
+	};
 
 	if (target.id === "heading2") {
 		console.log("You clicked heading 2");
-		$("#panel2").toggleClass("open")
-
-	} 
+		$("#panel2").toggleClass("open");
+		$("#panel1").toggleClass("close");
+		$("#panel3").toggleClass("close");
+	};
 
 	if (target.id === "heading3") {
 		console.log("You clicked heading 3");
 		$("#panel3").toggleClass("open");
-	} 
+		$("#panel1").toggleClass("close");
+		$("#panel2").toggleClass("close");
+	};
+
+	// if($(target.id)===(".open")) {
+            
+
+	// }
+
+
+
+	// if (target.id === "heading2") {
+	// 	console.log("You clicked heading 2");
+	// 	$("#panel2").toggleClass("open")
+
+	// } 
+
+	// if (target.id === "heading3") {
+	// 	console.log("You clicked heading 3");
+	// 	$("#panel3").toggleClass("open");
+	// } 
 
 }
 	

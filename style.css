@@ -3,13 +3,15 @@
   width: 496px;
   text-align: center; }
   .jquery-box #heading1 {
-    border: 2px solid lightblue;
-    background-color: lightblue;
+    border: 2px solid blue;
+    background-color: blue;
     margin: 0px; }
-  .jquery-box .section {
-    border: 2px solid lightblue;
-    background-color: lightblue;
+  .jquery-box h1 {
+    border: 2px solid blue;
+    background-color: blue;
     margin: 0px; }
+  .jquery-box .sectionbox {
+    border: 2px solid blue; }
 
 .info {
   max-height: 0px;

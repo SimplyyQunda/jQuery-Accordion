@@ -6,16 +6,23 @@
 	// height: 580px;
 	text-align: center;
 
+
 	#heading1{
-		border: 2px solid lightblue;
-		background-color: lightblue;
+		border: 2px solid blue;
+		background-color: blue;
 		margin: 0px;
+
 		
 	}
-	.section{
-		border: 2px solid lightblue;
-		background-color: lightblue;
+	h1{
+		border: 2px solid blue;
+		background-color: blue;
 		margin: 0px;
+		// overflow: hidden;
+	}
+	
+	.sectionbox{
+	border: 2px solid blue;
 	}
 }
 
@@ -24,6 +31,7 @@
 	overflow: hidden;
 	transition: max-height 1s ease;
 	margin: 0px;
+	
 }
 
 .open{
